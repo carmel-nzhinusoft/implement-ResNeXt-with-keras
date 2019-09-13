@@ -99,7 +99,7 @@ The wall architecture is as follow
 <img src="images/resnext-archi.png"/>
 
 <ul>
-    <li> Identity Block : Building blocks contained is the same stage. They have same input and output </li>
+    <li> Identity Block : Building blocks contained is the same stage. They have same input and output dimensions </li>
     <li> Downsampling Block : Transition between two building blocks whose the output dimension of the first block is different from that of the input of the other block.</li>
 </ul>
 
