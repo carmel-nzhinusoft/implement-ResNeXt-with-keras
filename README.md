@@ -2,7 +2,7 @@
 
 <a href="https://arxiv.org/pdf/1611.05431.pdf"> ResNeXt </a> is an important mileston in the growth of convolutional networks, especially for Residual Networks.
 
-Here is a proposal to implement ReNeXt with Keras. Our implementation is inspired by <a href="https://github.com/taki0112/ResNeXt-Tensorflow">ResNeXt-Tensorflow</a>
+Here is a proposal to implement ReNeXt with Keras. Our implementation is inspired by <a href="https://github.com/taki0112/ResNeXt-Tensorflow">ResNeXt-Tensorflow</a> and <a href="https://github.com/marcopeix/Deep_Learning_AI/blob/master/4.Convolutional%20Neural%20Networks/2.Deep%20Convolutional%20Models/Residual%20Networks.ipynb">Residual Networks</a></li>
 
 ## Requirements
 
