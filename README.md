@@ -28,7 +28,7 @@ We implemented the first reformulation which consists of ***split***, ***transfo
 
 ### Split
 
-Split the input channels into groups. The total number of groups is equals to the cardinality which is $c=4$ in our case
+Split the input channels into groups. The total number of groups is equals to the cardinality which is c=4 in our case
 
 ```python
 def split(inputs, inputs_channels, cardinality):
@@ -44,7 +44,7 @@ def split(inputs, inputs_channels, cardinality):
 
 ### Transform + merge
 
-Perform two consecutive convolution operations on each group: $1\times 1$ and $3\times 3$ (Transform) followed by concatenation (Merge)
+Perform two consecutive convolution operations on each group: 1x1 and 3x3 (Transform) followed by concatenation (Merge)
 
 ```python
 def transform(groups, filters, strides, stage, block):
