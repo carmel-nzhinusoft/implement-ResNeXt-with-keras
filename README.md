@@ -31,14 +31,15 @@ We implemented the first reformulation which consists of ***split***, ***transfo
 Split the input channels into groups. The total number of groups is equals to the cardinality which is c=4 in our case
 
 ```python
-def split(inputs, inputs_channels, cardinality):
-    group_size = inputs_channels / cardinality    
-    groups = list()    
+def split(inputs, cardinality):
+    inputs_channels = inputs.shape[3]
+    group_size = inputs_channels // cardinality    
+    groups = list()
     for number in range(1, cardinality+1):
         begin = int((number-1)*group_size)
         end = int(number*group_size)
         block = Lambda(lambda x:x[:,:,:,begin:end])(inputs)
-        groups.append(block)    
+        groups.append(block)
     return groups
 ```
 
