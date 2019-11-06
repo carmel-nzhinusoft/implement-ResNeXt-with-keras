@@ -104,6 +104,13 @@ The wall architecture is as follow
     <li> Downsampling Block : Transition between two building blocks whose the output dimension of the first block is different from that of the input of the other block.</li>
 </ul>
 
+## Organization of the repository's files
+
+
+```resnext50-with-keras.ipynb``` : details on how the model and its functions work <br>
+```resnext50.py``` : define the ResNeXt50 class <br>
+```training-on-cifar10.py``` : training script on the cifar10 dataset <br>
+
 ## References
 
 <ol>
@@ -111,11 +118,12 @@ The wall architecture is as follow
     <li> <i>He et al. (2015)</i> <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf">Deep Residual Learning for Image Recognition</a> </li>
     <li> <i> Marco Peixeiro </i> GitHub repository : <a href="https://github.com/marcopeix/Deep_Learning_AI/blob/master/4.Convolutional%20Neural%20Networks/2.Deep%20Convolutional%20Models/Residual%20Networks.ipynb">Residual Networks</a></li>
     <li> GitHub Repository: <a href="https://github.com/taki0112/ResNeXt-Tensorflow#what-is-the-transition-">ResNeXt-Tensorflow</a></li>
+    <li> Keras Documentation : <a href="https://keras.io/examples/cifar10_resnet/#trains-a-resnet-on-the-cifar10-dataset">Trains a ResNet on the CIFAR10 dataset </a> </li>
 </ol>
 
 ## Author
 
-Carmel WENGA, Deep Learning Engineer - Nzhinusoft
+Carmel WENGA, R&D Engineer | Data Scientist - Nzhinusoft
 
 ### Visit our Market Place
 
